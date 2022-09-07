@@ -1,0 +1,12 @@
+{
+  "AppVersion": "0.3.1.0",
+  "Title": "Omori",
+  "Thumbnail": "omori.jpg",
+  "Preview": "omori_preview.gif",
+  "Desc": "Simple Omori live wallpaper",
+  "Author": "Chinano",
+  "License": "MIT",
+  "Contact": "https://github.com/rocksdanister/WebGL-Fluid-Simulation",
+  "Type": 2,
+  "FileName": "oyasumi.html"
+}

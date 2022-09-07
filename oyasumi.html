@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="Cache-Control" content="no-cache">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+
+    <link rel="apple-touch-icon" href="logo.png">
+    <link rel="icon" href="logo.png">
+
+    <title>Omori wallpaper</title>
+    <meta name="description" content="A simple omori dynamic wallpaper">
+
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Omori">
+    <meta property="og:description" content="A simple omori dynamic wallpaper">
+    <script type="text/javascript" src="js/dat.gui.min.js"></script>
+
+    <style>
+        * {
+            user-select: none;
+        }
+
+        html,
+        body {
+            overflow: hidden;
+            background-color: #000;
+        }
+
+        body {
+            margin: 0;
+            position: fixed;
+            width: 100%;
+            height: 100%;
+            background-size: 100% 100%;
+        }
+
+        canvas {
+            width: 100%;
+            height: 100%;
+        }
+
+        .dg {
+            opacity: 0.9;
+        }
+
+        .dg .property-name {
+            overflow: visible;
+        }
+
+        @font-face {
+            font-family: 'iconfont';
+            src: url('iconfont.ttf') format('truetype');
+        }
+    </style>
+</head>
+
+<body>
+    <canvas></canvas>
+    <script type="text/javascript" src="js/script.js"></script>
+</body>
+
+</html>
