@@ -1,3 +1,7 @@
 {
-  
+    "onOrOff": {
+        "type": "checkbox",
+        "value": true,
+        "text": "Modo oscuro inicial"
+    }
 }
